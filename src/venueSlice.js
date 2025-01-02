@@ -1,35 +1,44 @@
 // venueSlice.js
 import { createSlice } from "@reduxjs/toolkit";
+import conferenceroom from './pics/chairs-2181916_1280.jpg';
+import auditorium from './pics/event-venue-1597531_1280.jpg';
+import presentationroom from './pics/convention-center-3908238_1280.jpg';
+import smallmeeting from './pics/laptops-593296_1280.jpg';
+import projector from './pics/business-20031_1280.jpg';
+import speakers from './pics/speakers-4109274_1280.jpg';
+import microphone from './pics/public-speaking-3926344_1280.jpg';
+import whiteboard from './pics/whiteboard-2903269_1280.png';
+import signs from './pics/signpost-235079_1280.jpg';
 
 export const venueSlice = createSlice({
   name: "venue",
   initialState: [
     {
-      img: "pics/chairs-2181916_1280.jpg",
+      img: conferenceroom,
       name: "Conference Room (Capacity:15)",
       cost: 3500,
       quantity: 0,
     },
     {
-      img: "https://pixabay.com/images/download/event-venue-1597531_640.jpg",
+      img: auditorium,
       name: "Auditorium Hall (Capacity:200)",
       cost: 5500,
       quantity: 0,
     },
     {
-      img: "https://pixabay.com/images/download/convention-center-3908238_640.jpg",
+      img: presentationroom,
       name: "Presentation Room (Capacity:50)",
       cost: 700,
       quantity: 0,
     },
     {
-      img: "https://pixabay.com/images/download/chairs-2181916_640.jpg",
+      img: conferenceroom,
       name: "Large Meeting Room (Capacity:10)",
       cost: 900,
       quantity: 0,
     },
     {
-      img: "https://pixabay.com/images/download/laptops-593296_640.jpg",
+      img: smallmeeting,
       name: "Small Meeting Room (Capacity:5)",
       cost: 1100,
       quantity: 0,
