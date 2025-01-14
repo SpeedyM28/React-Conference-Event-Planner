@@ -4,11 +4,6 @@ import conferenceroom from './pics/chairs-2181916_1280.jpg';
 import auditorium from './pics/event-venue-1597531_1280.jpg';
 import presentationroom from './pics/convention-center-3908238_1280.jpg';
 import smallmeeting from './pics/laptops-593296_1280.jpg';
-import projector from './pics/business-20031_1280.jpg';
-import speakers from './pics/speakers-4109274_1280.jpg';
-import microphone from './pics/public-speaking-3926344_1280.jpg';
-import whiteboard from './pics/whiteboard-2903269_1280.png';
-import signs from './pics/signpost-235079_1280.jpg';
 
 export const venueSlice = createSlice({
   name: "venue",
